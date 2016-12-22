@@ -38,11 +38,25 @@
 			</div>
 		</div>
 	</header>
-	<section class="hero">
-		<img src="img/hero.jpg" alt="Fairbanks MPG hero">
+	<section class="hero" id="hero">
 		<div class="description">
 			<p><span>Proud Makers Of</span></p>
 			<p><span>Our Little Rebellion Brand Products</span></p>
 			<p><span>Popcorners-Crispy and Crunch Popped Corn Chips</span></p>
+		</div>
+		<div class="banner">
+			<img src="img/vector-background-black.jpg" class="background" alt="vectory background">
+		</div>
+	</section>
+	<section class="careers" id="careers">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>We're Always Looking For Talent</h2>
+					<p>We consider our employees our most valuable resource and we operate as a team dedicated to the growth and development of all members of our company.</p>
+					<p>We believe that through growth of our employees we can most effectively exceed all expectations, internal and external.</p>
+					<a href="">Careers</a>
+				</div>
+			</div>
 		</div>
 	</section>

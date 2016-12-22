@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	var initHeroHeight = $('.hero img').height();
 	$('.hero').css({
-		height:initHeroHeight+"px"
+		//height:initHeroHeight+"px"
 	});
 	var initBorderHeight = initHeroHeight*0.40;
 	$('.hero:after').css({
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$(window).resize(function(event) {
 		var heroHeight = $('.hero img').height();
 		$('.hero').css({
-			height:heroHeight+"px"
+			//height:heroHeight+"px"
 		});
 		var borderHeight = heroHeight*0.40;
 		$('.hero:after').css({

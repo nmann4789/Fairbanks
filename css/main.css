@@ -70,6 +70,11 @@ fieldset {
 textarea {
   resize: vertical; }
 
+a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -168,6 +173,7 @@ header{
   top:0;
   left:0;
   right:0;
+  z-index: 2;
 }
 header nav{
   float:right;
@@ -201,16 +207,11 @@ header .content{
   display: flex;
   align-items: center;
   justify-content:center;
-}
-.hero:after{
-  content: '';
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 78px 100vw;
-  border-style: solid;
-  border-color: transparent transparent #e3e8ef transparent;
+  flex-direction:column;
+  overflow: hidden;
+  background: url(../img/hero.jpg);
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
 }
 .hero img{
   position: absolute;
@@ -241,6 +242,7 @@ header .content{
   flex-direction:column;
   align-items:center;
   transform: skewY(-10deg);
+  margin:150px 0;
 }
 .hero .description p:nth-child(1){
   width: 456px;
@@ -253,7 +255,26 @@ header .content{
   font-size: 32px;
   padding:0 20px;
 }
-
+.banner{
+  position: relative;
+  width:100%;
+  height:500px;
+  z-index: 1
+}
+.banner .background{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  transform: skewY(-10deg);
+}
+.careers a{
+  background-color: blue;
+  padding:10px;
+  color: black;
+  background-color:white;
+  border-radius: 3px;
+}
 
 /* ==========================================================================
    MEDIA QUERIES
