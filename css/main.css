@@ -71,7 +71,7 @@ textarea {
   resize: vertical; }
 
 a:hover{
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
@@ -189,6 +189,7 @@ header nav ul li{
 }
 header img{
   height:75px;
+  padding:10px;
 }
 header a{
   padding:10px;
@@ -255,18 +256,53 @@ header .content{
   font-size: 32px;
   padding:0 20px;
 }
-.banner{
+.hero .banner{
   position: relative;
   width:100%;
-  height:500px;
   z-index: 1
 }
-.banner .background{
+.hero .banner .background{
   position: absolute;
   left:0;
   right:0;
   bottom:0;
   transform: skewY(-10deg);
+}
+.hero .banner .content{
+  margin-top: 200px;
+  margin-bottom:30px;
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+}
+.hero .banner .pop-logo img{
+  position: relative;
+  max-width: 250px;
+}
+.hero .banner .pop-logo{
+  margin-top: 200px;
+  margin-bottom:50px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero .banner p{
+  background-color: transparent;
+  color:white;
+  text-transform:none;
+  font-size: 16px;
+  box-shadow: none;
+  display: block;
+  width:100%;
+}
+.hero .banner p span{
+  display: inline;
+  color:rgba(25, 151, 196, 1.00);
+  background: transparent;
+  -webkit-text-fill-color:rgba(25, 151, 196, 1.00);;
+}
+.careers{
+  padding:30px 0;
 }
 .careers a{
   background-color: blue;
@@ -275,13 +311,94 @@ header .content{
   background-color:white;
   border-radius: 3px;
 }
-
+footer{
+  background-color: rgba(231, 231, 231, 1.00);
+  padding:30px 0;
+}
+footer h3{
+  color:rgba(181, 181, 181, 1.00);
+  font-size: 18px;
+}
+footer ul{
+  margin-top: 20px;
+  font-weight: bold;
+  padding:0;
+}
+footer ul li{
+  font-weight:normal;
+  list-style-type: none;
+  margin-bottom:3px;
+}
+footer input{
+  background-color: rgba(181, 181, 181, 1.00);
+  color: white;
+  outline:none;
+  margin-bottom: 10px;
+  display: block;
+  -webkit-appearance:none;
+  width:100%;
+  border:0;
+  padding:3px 7px;
+}
+footer textarea{
+  background-color: rgba(181, 181, 181, 1.00);
+  color: white;
+  outline:none;
+  margin-bottom: 10px;
+  display: block;
+  -webkit-appearance:none;
+  width:100%;
+  border:0;
+  padding:3px 7px;
+}
+textarea::-webkit-input-placeholder,input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+textarea:-moz-placeholder, input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+textarea::-moz-placeholder, input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+textarea:-ms-input-placeholder, input:-ms-input-placeholder {  
+color: white !important;  
+}
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 
 @media (max-width: 991px) {
-
+  .hero{
+    background-size: 100% 60%;
+  }
+  .hero p{ 
+    font-size:26px;
+  }
+  .hero .description p:nth-child(1) {
+    width: 278px;
+  }
+  .hero .description p:nth-child(2) {
+    width: 585px;
+  }
+  .hero .description p:nth-child(3) {
+    width: 585px;
+    font-size: 18px;
+    padding: 0 29px;
+  }
+  .hero .description{
+    margin:150px 0 100px;
+  }
+  .hero .banner .content{
+    margin-top: 100px;
+    margin-bottom:30px;
+  }
+  .hero .banner .pop-logo{
+    margin-top: 100px;
+    margin-bottom:30px;
+  }
 }
 
 @media (max-width: 640px) {

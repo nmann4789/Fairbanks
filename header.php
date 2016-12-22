@@ -24,11 +24,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 content">
-					<img src="img/BFYBrands_logo.jpg" class="logo" alt="Fairbanks MFG">
+					<img src="img/fairbanks-logo-small.png" class="logo" alt="Fairbanks MFG">
 					<nav class="">
 						<ul class="">
 							<li><a href="#hero">Home</a></li>
-							<li><a href="#process">Process</a></li>
 							<li><a href="#careers">Careers</a></li>
 							<li><a href="#contact">Contact</a></li>
 		  			</ul>
@@ -46,6 +45,18 @@
 		</div>
 		<div class="banner">
 			<img src="img/vector-background-black.jpg" class="background" alt="vectory background">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 content">
+						<p>We only use <span class="blue">Non-GMO</span> ingredients grown right here in the US. No need for additives, preservatives, artificials, or any of the guilt that ruins snacking. Ideal Snacks si the proud co-packer fora wide variety of brands</p>
+						<p>Our commitment to safety, process innovation, and ongoing dialog allows us to exceed expectations and creates a foundation for our customers to compete strongly from.</p>
+						<p>We were born in Liberty, NY and are proud to be here today</p>
+					</div>
+					<div class="col-xs-6 pop-logo">
+						<img src="img/popcorners.png" alt="Popcorners Logo">
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="careers" id="careers">
@@ -60,3 +71,27 @@
 			</div>
 		</div>
 	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<form id="contact-form" class="" action="" enctype="application/x-www-form-urlencoded" method="post" name="">
+					  <h3>Contact Us</h3>
+						<input type="text" placeholder="Full Name" name="Name">  
+						<input type="email" placeholder="Email Address" name="Email">  
+						<textarea rows="5" placeholder="Type Your Message Here" name="Comments"></textarea>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+				<div class="col-sm-4 col-sm-offset-2">
+					<ul>
+						Fairbanks Manufacturing
+						<li>1111 New York, NY</li>
+						<li></li>
+						<li>info@fairbanksmfg.com</li>
+						<li>+1 (800) 111-1111</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>

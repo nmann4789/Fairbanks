@@ -3,22 +3,25 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 		$('header nav').toggleClass('open');
 	});
-	var initHeroHeight = $('.hero img').height();
-	$('.hero').css({
-		//height:initHeroHeight+"px"
-	});
-	var initBorderHeight = initHeroHeight*0.40;
-	$('.hero:after').css({
-		"border-width": "0 0 "+initBorderHeight+"px 100vw"
-	});
-	$(window).resize(function(event) {
-		var heroHeight = $('.hero img').height();
-		$('.hero').css({
-			//height:heroHeight+"px"
+	$('nav a').on('click', function(){
+		var section = $(this).attr('href');
+		var offset = 0;
+		if(window.innerWidth<=991){
+			offset=75;
+		}
+		var scroll=$(section).offset().top-offset;
+		$('html,body').animate({
+		  scrollTop: scroll
 		});
-		var borderHeight = heroHeight*0.40;
-		$('.hero:after').css({
-			"border-width": "0 0 "+borderHeight+"px 100vw"
+	});
+	var initBannerHeight = $('.banner .content').height();
+		$('.banner .pop-logo').css({
+			height:initBannerHeight+"px"
+		})
+	$(window).resize(function(event) {
+		var bannerHeight = $('.banner .content').height();
+		$('.banner .pop-logo').css({
+			height:bannerHeight+"px"
 		})
 	});
 });
