@@ -21,34 +21,28 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 	<header>
-		<img src="" class="mobile-logo" alt="">
-		<a class="hamburger-icon"><span class="line"></span><span class="line"></span><span class="line"></span></a>
-		<nav class="">
-			<div class="">
-				<a href="/">
-					<img src="" class="logo" alt="">
-				</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 content">
+					<img src="img/BFYBrands_logo.jpg" class="logo" alt="Fairbanks MFG">
+					<nav class="">
+						<ul class="">
+							<li><a href="#hero">Home</a></li>
+							<li><a href="#process">Process</a></li>
+							<li><a href="#careers">Careers</a></li>
+							<li><a href="#contact">Contact</a></li>
+		  			</ul>
+					</nav>
+					<a class="hamburger-icon"><span class="line"></span><span class="line"></span><span class="line"></span></a>
+				</div>
 			</div>
-			<div id="bfyNav">
-				<ul class="">
-					<li><a href="/">Home</a></li>
-  			</ul>
-			</div>
-			<div id="social-icons">
-				<ul>
-					<li><img src="img/icon_followus.jpg"></li>
-					<li>Follow Us</li>
-					<li><a href="" target="_blank"><img src="img/icon_facebook.jpg"></a></li>
-					<li><a href="" target="_blank"><img src="img/icon_instagram.jpg"></a></li>
-					<li><a href="" target="_blank"><img src="img/icon_twitter.jpg"></a></li>
-				</ul>
-			</div>
-		</nav>
+		</div>
 	</header>
-	<div class="side-nav-menu active">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 48" xml:space="preserve">
-      <rect y="19" width="25" height="3"></rect>
-      <rect y="26" width="25" height="3"></rect>
-      <rect y="33" width="25" height="3"></rect>
-    </svg>
-  </div>
+	<section class="hero">
+		<img src="img/hero.jpg" alt="Fairbanks MPG hero">
+		<div class="description">
+			<p><span>Proud Makers Of</span></p>
+			<p><span>Our Little Rebellion Brand Products</span></p>
+			<p><span>Popcorners-Crispy and Crunch Popped Corn Chips</span></p>
+		</div>
+	</section>
