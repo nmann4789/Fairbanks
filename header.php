@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 content">
-					<img src="img/fairbanks-logo-small.png" class="logo" alt="Fairbanks MFG">
+					<img src="img/fairbanks-logo-white.png" class="logo" alt="Fairbanks MFG">
 					<nav class="">
 						<ul class="">
 							<li><a href="#hero">Home</a></li>
