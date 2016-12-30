@@ -269,7 +269,7 @@ header .content{
   transform: skewY(-10deg);
 }
 .hero .banner .content{
-  margin-top: 200px;
+  margin-top: 165px;
   margin-bottom:30px;
   display: flex;
   align-items:center;
@@ -277,10 +277,10 @@ header .content{
 }
 .hero .banner .pop-logo img{
   position: relative;
-  max-width: 250px;
+  max-width: 300px;
 }
 .hero .banner .pop-logo{
-  margin-top: 200px;
+  margin-top: 165px;
   margin-bottom:50px;
   display: flex;
   align-items:center;

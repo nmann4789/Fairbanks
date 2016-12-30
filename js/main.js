@@ -27,7 +27,7 @@ $(document).ready(function(){
 	var hero_bac = document.querySelectorAll("#hero");
 	var career_bac = document.querySelectorAll("#careers");
 	var speed1 = 0.2;
-	var speed2 = 1.2;
+	var speed2 = 1.1;
 	window.onscroll = function(){
 		if(window.innerWidth>640){
 			[].slice.call(hero_bac).forEach(function(el,i){
