@@ -24,10 +24,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<h2>We're Always Looking For Talent</h2>
-				<p>We consider our employees our most valuable resource and we operate as a team dedicated to the growth and development of all members of our company.</p>
-				<p style="margin-bottom:20px;">We believe that through growth of our employees we can most effectively exceed all expectations, internal and external.</p>
-				<a href="">Careers</a>
+				<div class="content">
+					<h2>We're Always Looking For Talent</h2>
+					<p>We consider our employees our most valuable resource and we operate as a team dedicated to the growth and development of all members of our company.</p>
+					<p style="margin-bottom:30px;">We believe that through growth of our employees we can most effectively exceed all expectations, internal and external.</p>
+					<a href="">Careers</a>
+				</div>
 			</div>
 		</div>
 	</div>

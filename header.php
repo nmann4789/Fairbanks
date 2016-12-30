@@ -27,7 +27,6 @@
 					<img src="img/fairbanks-logo-white.png" class="logo" alt="Fairbanks MFG">
 					<nav class="">
 						<ul class="">
-							<li><a href="#hero">Home</a></li>
 							<li><a href="#careers">Careers</a></li>
 							<li><a href="#contact">Contact</a></li>
 		  			</ul>
