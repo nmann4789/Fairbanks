@@ -24,4 +24,23 @@ $(document).ready(function(){
 			height:bannerHeight+"px"
 		})
 	});
+	var hero_bac = document.querySelectorAll("#hero");
+	var career_bac = document.querySelectorAll("#careers");
+	var speed1 = 0.2;
+	var speed2 = 1.2;
+	window.onscroll = function(){
+		if(window.innerWidth>640){
+			[].slice.call(hero_bac).forEach(function(el,i){
+	    var windowYOffset = window.pageYOffset,
+	        elBackgrounPos = "0% " + (windowYOffset * speed1) + "px";
+	    el.style.backgroundPosition = elBackgrounPos;
+	    });
+
+	    [].slice.call(career_bac).forEach(function(el,i){
+	    var windowYOffset = window.pageYOffset,
+	        elBackgrounPos = "0% " + (windowYOffset * speed2) + "px";
+	    el.style.backgroundPosition = elBackgrounPos;
+	    });
+		}  
+	};
 });

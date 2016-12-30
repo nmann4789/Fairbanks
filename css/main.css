@@ -167,7 +167,7 @@ a:hover{
 
 header{
   height:75px;
-  background-color:rgba(255,255,255,0.35);
+  background-color: rgba(0,0,0,0.7);
   border-bottom: 1px solid white;
   position: fixed;
   top:0;
@@ -210,7 +210,7 @@ header .content{
   justify-content:center;
   flex-direction:column;
   overflow: hidden;
-  background: url(../img/hero.jpg);
+  background: url(../img/hero-background.jpg);
   background-size: 100% 70%;
   background-repeat: no-repeat;
 }
@@ -233,7 +233,7 @@ header .content{
   margin-bottom: 15px;
 }
 .hero p span { 
-  background: url(../img/hero.jpg) -20px -20px repeat;
+  background: url(../img/hero-background.jpg) -20px -20px repeat;
   -webkit-text-fill-color: rgba(25, 151, 196, 0.7);
   -webkit-background-clip: text;
   display:block;
@@ -299,17 +299,30 @@ header .content{
   display: inline;
   color:rgba(25, 151, 196, 1.00);
   background: transparent;
-  -webkit-text-fill-color:rgba(25, 151, 196, 1.00);;
+  -webkit-text-fill-color:rgba(25, 151, 196, 1.00);
 }
 .careers{
-  padding:30px 0;
+  padding:30px 0 50px;
+  background: url(../img/careers-background.jpg);
+  color:white;
+}
+.careers h2{
+  color: white;
+  font-weight: bold;
+}
+.careers p{
+  color: white;
+  font-weight: bold;
+  font-size:16px;
 }
 .careers a{
   background-color: blue;
-  padding:10px;
+  padding:10px 20px;
   color: black;
   background-color:white;
   border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 footer{
   background-color: rgba(231, 231, 231, 1.00);
