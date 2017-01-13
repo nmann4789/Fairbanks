@@ -8,12 +8,12 @@
 		<img src="img/vector-background-black.jpg" class="background" alt="vectory background">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 content">
+				<div class="col-sm-6 content">
 					<p>We only use <span class="blue">Non-GMO</span> ingredients grown right here in the US. No need for additives, preservatives, artificials, or any of the guilt that ruins snacking. Ideal Snacks si the proud co-packer fora wide variety of brands</p>
 					<p>Our commitment to safety, process innovation, and ongoing dialog allows us to exceed expectations and creates a foundation for our customers to compete strongly from.</p>
 					<p>We were born in Liberty, NY and are proud to be here today</p>
 				</div>
-				<div class="col-xs-6 pop-logo">
+				<div class="col-sm-6 pop-logo">
 					<img src="img/popcorners.png" alt="Popcorners Logo">
 				</div>
 			</div>
