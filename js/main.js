@@ -14,16 +14,16 @@ $(document).ready(function(){
 		  scrollTop: scroll
 		});
 	});
-	var initBannerHeight = $('.banner .content').height();
+	/*var initBannerHeight = $('.banner .content').height()-100;
 		$('.banner .pop-logo').css({
 			height:initBannerHeight+"px"
 		})
 	$(window).resize(function(event) {
-		var bannerHeight = $('.banner .content').height();
+		var bannerHeight = $('.banner .content').height()-100;
 		$('.banner .pop-logo').css({
 			height:bannerHeight+"px"
 		})
-	});
+	});*/
 	var hero_bac = document.querySelectorAll("#hero");
 	var career_bac = document.querySelectorAll("#careers");
 	var speed1 = 0.2;

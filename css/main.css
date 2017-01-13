@@ -195,7 +195,6 @@ header a{
   text-transform: uppercase;
   color:white;
   font-weight: bold;
-  text-shadow: 2px 2px 0px #1997C4;
 }
 header .content{
   display: flex;
@@ -276,10 +275,10 @@ header .content{
 }
 .hero .banner .pop-logo img{
   position: relative;
-  max-width: 300px;
+  max-width: 450px;
 }
 .hero .banner .pop-logo{
-  margin-top: 165px;
+  margin-top: 100px;
   margin-bottom:50px;
   display: flex;
   align-items:center;
@@ -315,10 +314,9 @@ header .content{
   font-size:16px;
 }
 .careers a{
-  background-color: blue;
   padding:10px 20px;
-  color: black;
-  background-color:white;
+  color: white;
+  background-color:#1997C4;
   border-radius: 3px;
   font-weight: bold;
   text-transform: uppercase;
