@@ -28,7 +28,7 @@
 					<nav class="">
 						<ul class="">
 							<li><a href="#careers">Careers</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#contact-form">Contact</a></li>
 		  			</ul>
 					</nav>
 					<a class="hamburger-icon"><span class="line"></span><span class="line"></span><span class="line"></span></a>

@@ -11,11 +11,11 @@
 						</form>
 					</div>
 					<div class="col-sm-4 col-sm-offset-2">
-						<ul>
+						<ul> 
 							Fairbanks Manufacturing
-							<li>1111 New York, NY</li>
-							<li></li>
-							<li>info@fairbanksmfg.com</li>
+							<li>79 Industrial Place</li>
+							<li>Middletown, NY 10940</li>
+							<li><a href="mailto:info@fairbanksmfg.com">info@fairbanksmfg.com</a></li>
 							<li>+1 (800) 111-1111</li>
 						</ul>
 					</div>
